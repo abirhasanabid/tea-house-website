@@ -31,7 +31,7 @@
 </head>
 
 <body class="font-manrope">
-    <header class="md:w-3/4 md:mx-auto mx-5 mt-16 md:flex justify-between items-center">
+    <header class="md:w-3/4 md:mx-auto mx-5 mt-16 flex flex-col lg:flex-row  lg:justify-between items-center">
         <div>
             <h1 class="text-6xl md:text-7xl font-extrabold">
                 It's good <br />
@@ -234,9 +234,9 @@
             </div>
             <!-- card div -->
             <div
-                class="grid gap-6 md:items-center md:justify-center md:gap-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                class="grid gap-6 md:items-center md:justify-center md:gap-8 lg:gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                 <!-- card-1 -->
-                <div class="max-w-96 mx-auto space-y-3 border-2 p-6 rounded-xl">
+                <div class="max-w-96 mx-auto space-y-3 border-2 p-3 lg:p-6 rounded-xl">
                     <img src="./images/news-1.png" alt="">
                     <p class="font-medium text-gray-500">Feb 05, 2027</p>
                     <h3 class="font-extrabold text-xl">Collecting 8 points for <br> discount</h3>
@@ -245,7 +245,7 @@
                     <h4 class="font-bold">Learn More</h4>
                 </div>
                 <!-- card-2 -->
-                <div class="max-w-96 mx-auto space-y-3 border-2 p-6 rounded-xl">
+                <div class="max-w-96 mx-auto space-y-3 border-2 p-3 lg:p-6 rounded-xl">
                     <img src="./images/news-2.png" alt="">
                     <p class="font-medium text-gray-500">Feb 05, 2027</p>
                     <h3 class="font-extrabold text-xl">Collecting 8 points for <br> discount</h3>
@@ -254,7 +254,7 @@
                     <h4 class="font-bold">Learn More</h4>
                 </div>
                 <!-- card-3 -->
-                <div class="max-w-96 mx-auto space-y-3 border-2 p-6 rounded-xl">
+                <div class="max-w-96 mx-auto space-y-3 border-2 p-3 lg:p-6 rounded-xl">
                     <img src="./images/news-3.png" alt="">
                     <p class="font-medium text-gray-500">Feb 05, 2027</p>
                     <h3 class="font-extrabold text-xl">Collecting 8 points for <br> discount</h3>
@@ -265,8 +265,75 @@
             </div>
         </section>
     </main>
-    <footer>
-
+    <footer class="manrope bg-[#FFEDE8] mt-32">
+        <section class="md:w-3/4 mx-auto">
+            <div class="md:flex justify-between items-center  mx-5 pt-20 lg:pt-32">
+                <img src="./images/cup.png" alt="">
+                <div class="md:flex gap-3 items-center">
+                    <p class="text-gray-500 font-medium text-xl py-5">Ready to get strated?</p>
+                    <button
+                        class=" bg-gradient-to-r from-orange-400 to-red-600 font-bold text-white md:text-xl rounded-lg px-3 py-2 md:px-6 md:py-4">Get
+                        Started</button>
+                </div>
+            </div>
+            <!-- 4 column div -->
+            <div class="grid grid-cols-1 mx-5 md:grid-cols-2 lg:grid-cols-4 pt-8 md:pt-12 lg:pt-24">
+                <div class="">
+                    <h4 class="text-xl font-semibold pb-5">Quick Links</h4>
+                    <ul class="flex flex-col gap-4">
+                        <li>
+                            <a href="" class="">Home</a>
+                        </li>
+                        <li>
+                            <a href="" class="">About Us</a>
+                        </li>
+                        <li>
+                            <a href="" class="">Insurance</a>
+                        </li>
+                        <li>
+                            <a href="" class="">Privacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="">
+                    <h4 class="text-xl font-semibold pb-5">Quick Links</h4>
+                    <ul class="flex flex-col gap-4">
+                        <li>
+                            <a href="" class="">Home</a>
+                        </li>
+                        <li>
+                            <a href="" class="">About Us</a>
+                        </li>
+                        <li>
+                            <a href="" class="">Insurance</a>
+                        </li>
+                        <li>
+                            <a href="" class="">Privacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="">
+                    <h4 class="text-xl font-semibold pb-5">Quick Links</h4>
+                    <ul class="flex flex-col gap-4">
+                        <li>
+                            <a href="" class="">Home</a>
+                        </li>
+                        <li>
+                            <a href="" class="">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="">
+                    <h3 class="font-semibold text-2xl leading-10">Subscribe to our <br>
+                        newsletter</h3>
+                    <div class="flex gap-2">
+                        <input class="bg-transparent border-b-2 border-[#494949]" type="text" name="" id="">
+                        <button class=""><i
+                                class="fa-solid fa-chevron-right bg-gradient-to-r from-orange-400 to-red-600 rounded-full text-white p-2 md:p-4"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
     </footer>
 </body>
 
