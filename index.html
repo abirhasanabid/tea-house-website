@@ -22,7 +22,7 @@
                         clifford: "#da373d",
                     },
                     fontFamily: {
-                        manrope:['Manrope', 'sans-serif'],
+                        manrope: ['Manrope', 'sans-serif'],
                     }
                 },
             },
@@ -109,18 +109,17 @@
             </div>
         </section>
         <!-- freshly presented section -->
-        <section>
-            <div class="mx-5 md:w-3/4 md:mx-auto flex flex-col-reverse gap-10 md:flex-row md:items-center">
+        <section class="md:w-3/4 mx-auto">
+            <div class="mx-5 flex gap-12 flex-col-reverse lg:flex-row md: md:justify-between">
                 <!-- 2-lay_out div -->
-                <div
-                    class="flex flex-col md:flex-row items-center justify-center md:justify-stretch md:gap-8 w-full md:w-2/4">
-                    <div class="">
+                <div class="lg:w-2/4 flex gap-6 items-center justify-between">
+                    <div class="mx-auto">
                         <div
                             class="max-w-60 h-[136px] rounded-xl bg-gradient-to-r from-red-500 to-orange-500 opacity-10 mb-8">
                         </div>
                         <img class="bg-[#EFF3EC] p-5 md:p-11 rounded-xl" src="./images/fresh-2.png" alt="">
                     </div>
-                    <div>
+                    <div class="mx-auto">
                         <img class="bg-[#FDF7E9] p-2 md:p-11 rounded-xl md:mb-8 mt-6 md:mt-0" src="./images/fresh-1.png"
                             alt="">
                         <div
@@ -129,7 +128,7 @@
                     </div>
                 </div>
                 <!-- content div -->
-                <div class="w-full md:w-2/4 mt-11">
+                <div class="w-full lg:w-2/4 md:mt-8 lg:mt-11">
                     <h1 class="text-4xl md:text-5xl text-[#1C1C1C] font-extrabold pb-5">Great Tea, Freshly <br>Presented
                     </h1>
                     <p class="text-gray-500">The meaning of gong cha is chanese is to provide the best tea to emperor
@@ -154,7 +153,8 @@
             <div class=" lg:flex md:gap-12 md:justify-between lg:items-center  p-5 lg:px-16 lg:py-16 ">
                 <!-- content -->
                 <div class=" lg:w-2/4 mx-auto">
-                    <h2 class="text-4xl capitalize md:text-5xl text-white font-extrabold pb-7">meet our seper <br> clients
+                    <h2 class="text-4xl capitalize md:text-5xl text-white font-extrabold pb-7">meet our seper <br>
+                        clients
                     </h2>
                     <p class="pb-5 text-[#F4F4F4]">There are many variations of passages of Lorem Ipsum available,
                         but the majority have suffered alteration in some form, by injected humour, or randomised
@@ -171,7 +171,8 @@
                 <!-- card -->
                 <div class="h-56 md:h-[650px] xl:w-2/5 mx-12 relative">
                     <!-- card-1 -->
-                    <div class=" md:w-2/3 lg:w-3/4 bg-white px-3 py-5  md:px-5 md:py-7 lg:px-4 lg:py-12 rounded-lg absolute z-10 top-12 md:top-64">
+                    <div
+                        class=" md:w-2/3 lg:w-3/4 bg-white px-3 py-5  md:px-5 md:py-7 lg:px-4 lg:py-12 rounded-lg absolute z-10 top-12 md:top-64">
                         <div class="relative">
                             <div class="absolute bottom-28 -right-10   md:-top-20 md:-left-16">
                                 <img class="p-1 bg-white rounded-full" src="./images/client.png" alt="">
@@ -217,7 +218,51 @@
 
                 </div>
             </div>
-
+        </section>
+        <!-- event section -->
+        <section class="w-3/4 mx-auto">
+            <!-- text div -->
+            <div class="text-center">
+                <h1 class="font-extrabold text-4xl md:text-5xl pb-5">
+                    News & Events
+                </h1>
+                <p class="text-gray-500 max-w-4xl mx-auto pb-8 md:pb-12">
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration in some form, by injected humour, or randomised words which don't look even slightly
+                    believable.
+                </p>
+            </div>
+            <!-- card div -->
+            <div
+                class="grid gap-6 md:items-center md:justify-center md:gap-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                <!-- card-1 -->
+                <div class="max-w-96 mx-auto space-y-3 border-2 p-6 rounded-xl">
+                    <img src="./images/news-1.png" alt="">
+                    <p class="font-medium text-gray-500">Feb 05, 2027</p>
+                    <h3 class="font-extrabold text-xl">Collecting 8 points for <br> discount</h3>
+                    <p class="font-medium text-gray-500 max-w-80">There are many variations of passages of Lorem Ipsum
+                        available.</p>
+                    <h4 class="font-bold">Learn More</h4>
+                </div>
+                <!-- card-2 -->
+                <div class="max-w-96 mx-auto space-y-3 border-2 p-6 rounded-xl">
+                    <img src="./images/news-2.png" alt="">
+                    <p class="font-medium text-gray-500">Feb 05, 2027</p>
+                    <h3 class="font-extrabold text-xl">Collecting 8 points for <br> discount</h3>
+                    <p class="font-medium text-gray-500 max-w-80">There are many variations of passages of Lorem Ipsum
+                        available.</p>
+                    <h4 class="font-bold">Learn More</h4>
+                </div>
+                <!-- card-3 -->
+                <div class="max-w-96 mx-auto space-y-3 border-2 p-6 rounded-xl">
+                    <img src="./images/news-3.png" alt="">
+                    <p class="font-medium text-gray-500">Feb 05, 2027</p>
+                    <h3 class="font-extrabold text-xl">Collecting 8 points for <br> discount</h3>
+                    <p class="font-medium text-gray-500 max-w-80">There are many variations of passages of Lorem Ipsum
+                        available.</p>
+                    <h4 class="font-bold">Learn More</h4>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
